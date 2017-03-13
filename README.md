@@ -3,8 +3,9 @@ Here are Dockerfiles to get you up and running with a fully functional deep lear
 
 If you are not familiar with Docker, but would still like an all-in-one solution, start here: [What is Docker?](#what-is-docker). If you know what Docker is, but are wondering why we need one for deep learning, [see this](#why-do-i-need-a-docker)
 
-This docker file is a fork of https://hub.docker.com/r/floydhub/dl-docker
-The dockerfile is forked from github https://github.com/floydhub/dl-docker
+Heritage:
+* This docker file is a fork of https://hub.docker.com/r/floydhub/dl-docker
+* The dockerfile is forked from github https://github.com/floydhub/dl-docker
 
 ## Specs
 This is what you get out of the box when you create a container with the provided image/Dockerfile:
@@ -12,7 +13,7 @@ This is what you get out of the box when you create a container with the provide
 * [CUDA 8.0](https://developer.nvidia.com/cuda-toolkit) (GPU version only)
 * [cuDNN v5](https://developer.nvidia.com/cudnn) (GPU version only)
 * [Tensorflow](https://www.tensorflow.org/)
-* [Numpy](http://www.numpy.org/), [SciPy](https://www.scipy.org/), [Pandas](http://pandas.pydata.org/), [Scikit Learn](http://scikit-learn.org/), [Matplotlib](http://matplotlib.org/)
+* [Numpy](http://www.numpy.org/), [SciPy](https://www.scipy.org/), [Pandas](http://pandas.pydata.org/), [Scikit Learn](http://scikit-learn.org/), [Matplotlib](http://matplotlib.org/), [Bokeh] (http://bokeh.pydata.org)
 * [OpenCV](http://opencv.org/)
 * A few common libraries used for deep learning
 
